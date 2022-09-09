@@ -2,6 +2,10 @@ import java.util.*;
 import java.util.Scanner;
 import java.io.*;
 
+//Justin Davis
+//CSCI-3331
+//November 9, 2022
+
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
@@ -11,36 +15,8 @@ public class App {
         String strQrtSales;
         String[] strQrtSalesArr;
         double[] dou  = new double[4];
-
         double total = 0;
-
         
-
-        /*
-        for (divNum = 0; divNum<4; divNum++) {
-            System.out.println("Please enter the four quarterly sales for DIV " + divNum + " seperated by space:");
-            strQrtSales = input.nextLine();
-            strQrtSalesSplit = strQrtSales.split(" ");
-            
-            for(int qrt=0; qrt<4; qrt++) {
-                qrtSales[divNum][qrt] = Double.valueOf(strQrtSalesSplit[qrt]);
-                //totalSales+=qrtSales[divNum][qrt];
-            }
-        
-        }
-        */
-
-        /*
-        System.out.println("div                 q1                  q2                  q3                  q4");
-        for (int divInd = 0; divInd<4; divInd++){
-            System.out.print(divInd + "   ");
-            for (int qrtInd=0; qrtInd<4; qrtInd++){
-                System.out.printf("%20.2f", qrtSales[divInd][qrtInd]);
-            }
-            System.out.println();
-        }
-        */
-
         System.out.println("Please enter the four quarterly sales for Div 1 seperated by space:");
         strQrtSales = input.nextLine();
         strQrtSalesArr = strQrtSales.split(" ");
